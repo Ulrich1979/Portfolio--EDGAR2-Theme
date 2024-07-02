@@ -11,14 +11,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
     <title>EDGAR</title>
 </head>
 <body>
 
-    <section id="head" class="flex">
-        <div class="logo"><img src="images/EDGAR Logo_4.png" alt="logo"></div>
+    <div id="head" class="flex">
+        <div class="logo"><img src="images/EDGAR_Logo_4.png" alt="logo"></div>
         <div id="nav-container" class="flex">
 <!--             <ul class="nav-list no-list-style" id="full-nav" -->
             <ul class="desktop" id="full-nav">
@@ -35,7 +35,7 @@
             </a>
 
         </div>
-    </section>
+    </div>
 
     <section id="hero" class="bg-1 flex">
         <div class="col">
@@ -207,7 +207,7 @@
                 <li class="no-list-style chip chip-dark"><i class="space-after fa-solid fa-bolt"></i>Lightning Speed</li>
                 <li class="no-list-style chip chip-dark"><i class="space-after fa-solid fa-circle-up"></i>Up in the Sky</li>
                 <li class="no-list-style chip chip-dark"><i class="space-after fa-solid fa-eye"></i>Good-looking</li>
-                <li class="no-list-style chip chip-dark"><i class="space-after fa-solid fa-link"></i></i>Linking to other Services</li>
+                <li class="no-list-style chip chip-dark"><i class="space-after fa-solid fa-link"></i>Linking to other Services</li>
                 <li class="no-list-style chip chip-dark"><i class="space-after fa-solid fa-camera"></i>Photo bucket</li>
             </ul>
         </div>
@@ -225,13 +225,13 @@
         <h5 class="subtitle center">Feel free to contact us!</h5>
         <form class="contact-form flex">
             <label for="customer-name">Name</label>
-            <input type="text" name="customername" placeholder="Type in your Name!">
+            <input type="text" name="customername" id="customer-name" placeholder="Type in your Name!">
 
-            <label for="last-name">Mail Address</label>
-            <input type="email" name="mailname" placeholder="Type in your Mail Address!">
+            <label for="mail-name">Mail Address</label>
+            <input type="email" name="mailname" id="mail-name" placeholder="Type in your Mail Address!">
 
             <label for="country">Country</label>
-            <select name="countryname">
+            <select name="countryname" id="country">
                 <option value="france">France</option>
                 <option value="germany">Germany</option>
                 <option value="usa">USA</option>
@@ -239,7 +239,7 @@
             </select>
 
             <label for="subject">Message</label>
-            <textarea name="messagetname" placeholder="Type in your Message!"></textarea>
+            <textarea name="messagename" id="subject" placeholder="Type in your Message!"></textarea>
 
             <button class="accent"><i class="space-after fa-solid fa-pencil"></i>Submit</button>
         </form>
@@ -248,9 +248,9 @@
     </section>
 
 
-    <section id="foot" class="bg-3 big-bottom grid">
+    <div id="foot" class="bg-3 big-bottom grid">
         <div class="logo">
-            <img src="images/EDGAR Logo_5.png" alt="logo">
+            <img src="images/EDGAR_Logo_5.png" alt="logo">
         </div>
         
         <div class="col">

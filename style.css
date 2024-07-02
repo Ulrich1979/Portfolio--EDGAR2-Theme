@@ -191,6 +191,7 @@ button.light:hover {
 /* HEAD */
 
 #head {
+    padding: 5vh max(calc((100vw - 1250px) / 2 ), 5vw);
     height: 5rem;
 }
 
@@ -413,6 +414,10 @@ select:focus {
 }
 
 /* FOOT */
+#foot {
+    padding: 5vh max(calc((100vw - 1250px) / 2 ), 5vw);
+}
+
 #foot p, #foot h3 {
     color: var(--col-light-gray);
 }
